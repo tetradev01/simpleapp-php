@@ -1,0 +1,19 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Stmt1483341272000",
+            "Effect": "Allow",
+            "Action": [
+                "elasticbeanstalk:*",
+                "cloudformation:*"
+            ],
+            "Resource": [
+                "arn:aws:elasticbeanstalk:us-east-1:133976391764:application/tetra-application*",
+                "arn:aws:elasticbeanstalk:us-east-1:133976391764:applicationversion/tetra-application*",
+                "arn:aws:elasticbeanstalk:us-east-1:133976391764:environment/tetra-application*",
+                "arn:aws:cloudformation:us-east-1:133976391764:stack/*"
+            ]
+        }
+    ]
+}
